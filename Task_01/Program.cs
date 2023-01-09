@@ -37,7 +37,7 @@ int[,] SortingRows(int[,] array)
         {
             for(int j=0; j<(columns-1-countSort); j++)
             {
-                if(array[i,j]>array[i,j+1])
+                if(array[i,j]<array[i,j+1])
                 {
                     temp = array[i,j];
                     array[i,j] = array[i,j+1];
